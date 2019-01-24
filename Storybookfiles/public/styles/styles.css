@@ -1,0 +1,259 @@
+html { 
+  background: url("../Images/ybr3.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  /* background-color: sandybrown; */
+  height: 0px;
+  /* font-family: 'Luckiest Guy', cursive; */
+  margin: 50px
+ } 
+
+ .container {
+  max-width: 1800px;
+  max-height: 00px;
+  padding: 0px;
+  width: 2000px;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  box-align: center;
+  /* background-image: url("../Images/ybr3.jpg"); */
+  /* font-family: 'Marck Script', cursive; */
+  color: green;
+  text-emphasis: bold;
+  font-size: 150%;
+  background-color: yellow;
+}
+
+.jumbotron {
+  /* background-color:goldenrod; */
+  color: whitesmoke;
+  border-radius: 100px;
+  padding: 20px 20px;
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+  margin-right: 50px;
+  width: 100%;
+  background-image: url("../Images/WO_Background_3.jpg");
+  text-align: center;
+  align-content: center;
+  font-size: 250px;
+  font-weight: bold;
+  box-shadow: 0px 10px 50px #555;
+  font-family: 'Luckiest Guy', cursive;
+  display: inline-block;
+}
+
+.page-header {
+  max-width: 2000px;
+  border-radius: 100px;
+  padding: 50px;
+  /* width: 1000px; */
+  background-color: goldenrod;
+  /* position: relative; */
+  /* box-align: left; */
+  /* align-self: auto; */
+  align-content: center;
+  font-family: 'Luckiest Guy', cursive;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  box-shadow: 0px 10px 50px #555;
+}
+
+.row {
+  /* background-color: red; */
+  margin-left: 80px;
+}
+
+.col-lg-12 {
+  margin-left: 80px;
+  padding-left: 40px;
+  background-color: saddlebrown;
+}
+
+.card {
+  background-color: blue;
+  max-width: 2500px;
+  box-align: center;
+  margin-left: 200px;
+  padding-left: 150px;
+  display: inline-block;
+}
+
+.card-header {
+  max-width: 3000px;
+  /* border-radius: 80px; */
+  background-color: green;
+  font-family: 'Luckiest Guy', cursive;
+  color: aliceblue;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  box-shadow: 0px 10px 50px #555; 
+  /* width: 1600px; */
+  max-height: 1000px;
+  display: center;
+  padding: 20px 100px 40px 20px;
+}
+
+/* .mx-auto {
+  width: 800px;
+  max-height: 1000px;
+  display: center;
+  flex-direction: column;
+  padding: 100px 100px 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: goldenrod;
+  box-align: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  font-weight: bold;
+  text-decoration-color: aliceblue;
+  font-family: 'Luckiest Guy', cursive;
+} */
+
+.card-body {
+  padding-top: 40px;
+  border-radius: 100px;
+  max-width: 1800px;
+  background-color: goldenrod;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  display: center;
+  box-shadow: 0px 10px 50px #555;
+}
+
+form {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px 10px;
+  background: red;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 100%;
+  margin-bottom: 20px;
+  width: 100%;
+  color: green;
+} 
+
+.form-group {
+  font-family: 'Luckiest Guy', cursive;
+  padding-bottom: 40px;
+  background-color:goldenrod;
+  padding: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  /* text-decoration-color: aliceblue; */
+}
+
+/* .vertical-center {
+  height: 100%;
+  width: 100%;
+  align-items: left;
+} */
+
+h1 {
+  font-size: 50px;
+}
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.text-right {
+  font-family: 'Luckiest Guy', cursive;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  color: green;
+}
+
+#submit {
+  color:white;
+  background-color: green;
+}
+
+/*button {
+  background-color: black;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  margin-bottom: 0.25em;
+  
+}
+
+button:hover {
+  color: #519e8a;
+  background-color: #fff;
+  border: 2px solid #519e8a;
+  
+}
+p {
+  text-align: center;
+  width: 100%;
+  
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}/*
+
+
+
+/*.output {
+  text-align:center;
+  font-family: 'Source Code Pro', monospace;
+  color:black;
+  
+}
+
+/* Cursor Styling */
+
+/* .cursor::after {
+  content:'';
+  display:inline-block;
+  margin-left:3px;
+  background-color:black;
+  animation-name:blink;
+  animation-duration:0.5s;
+  animation-iteration-count: infinite;
+}
+h1.cursor::after {
+  height:24px;
+  width:13px;
+}
+p.cursor::after {
+  height:13px;
+  width:6px;
+}
+
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  49% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}

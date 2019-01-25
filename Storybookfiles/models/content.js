@@ -14,7 +14,8 @@ var content = sequelize.define('content', {
     wordType: Sequelize.STRING,
 
 }, {
-    freezeTableName: true
+    freezeTableName: true,
+    timestamps: false
 });
 
 content.sync();

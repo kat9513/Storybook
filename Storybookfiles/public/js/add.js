@@ -2,15 +2,21 @@
 // Effectively it takes the form inputs then sends it to the server to save in the DB.
 
 // when user clicks add-btn
-$("#add-btn").on("click", function(event) {
+$("#submit").on("click", function(event) {
     event.preventDefault();
     // make a newStory obj
     var userInput = {
       // name from name input
-      userName: $("#user_name").val().trim(),
+      word1: $("#word1").val().trim(),
       // role from role input
-      favColor: $("#favorite_color").val().trim(),
-  
+      word2: $("#word2").val().trim(),
+
+      word3: $("#word3").val().trim(),
+
+      word4: $("#word4").val().trim(),
+
+      word5: $("#word5").val().trim(),
+
     };
   
     // The name of the story template we will be using
@@ -30,8 +36,11 @@ $("#add-btn").on("click", function(event) {
       });
   
     // empty each input box by replacing the value with an empty string
-    $("#user_name").val("");
-    $("#favorite_color").val("");
+    $("#word1").val("");
+    $("#word2").val("");
+    $("#word3").val("");
+    $("#word4").val("");
+    $("#word5").val("");
   
       // This is where we will take the user input array and merge it with our template.
       // COMING SOON

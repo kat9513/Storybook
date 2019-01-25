@@ -5,9 +5,15 @@ var sequelize = require("../config/connection.js");
 
 var userInput = sequelize.define('userInput', {
     
-    userName: Sequelize.STRING,
+    word1: Sequelize.STRING,
 
-    favColor: Sequelize.STRING
+    word2: Sequelize.STRING,
+
+    word3: Sequelize.STRING,
+
+    word4: Sequelize.STRING,
+
+    word5: Sequelize.STRING,
 
 }, {
     freezeTableName: true

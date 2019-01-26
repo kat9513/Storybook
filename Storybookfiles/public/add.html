@@ -15,103 +15,90 @@
 
 <body>
 
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Mad Libs of Oz</h1>
-        <h3>Pick a song title and create your own song from The Wizard of Oz!</h3>
-        <hr>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Mad Libs of Oz</h1>
+      <h3>Pick a song title and create your own song from The Wizard of Oz!</h3>
+      <hr>
+    </div>
+
+    <div class="page-header">
+      <h2>A Mad Lib is an interactive story to which you add specific type of words when prompted.</h2>
+      <br>
+      <p> For example, an ADJECTIVE describes something or somebody.
+        <br>
+        Lumpy, soft, ugly, messy, and short are adjectives.</p>
+      An ADVERB tells how something is done. It modifies a verb and usually ends in "ly".
+      <br>
+      <p> Modestly, stupidly, greedily, and carefully are adverbs.</p>
+      <p> A NOUN is the name of a person, place, or thing.
+        <br>
+        Sidewalk, umbrella, toy, bathtub, and nose are nouns.
+        <br>
+        <p> A VERB is an action word. Run, pitch, jump, and swim are verbs.
+          <br>
+          Once all words are added, the story is ready. The end story is usually quite funny. Pick a song title below
+          and insert your own words.
+    </div>
+
+
+
+    <div class="card-body">
+      <div class="card-header">
+        Choose your song
       </div>
-  
-        <div class="page-header">
-          <h2>A Mad Lib is an interactive story to which you add specific type of words when prompted.</h2>
-            <br>
-          <p> For example, an ADJECTIVE describes something or somebody.
-            <br>
-            Lumpy, soft, ugly, messy, and short are adjectives.</p>
-            An ADVERB tells how something is done. It modifies a verb and usually ends in "ly".
-            <br>
-          <p> Modestly, stupidly, greedily, and carefully are adverbs.</p>
-          <p> A NOUN is the name of a person, place, or thing.
-            <br>
-            Sidewalk, umbrella, toy, bathtub, and nose are nouns.
-            <br>
-            <p> A VERB is an action word. Run, pitch, jump, and swim are verbs.
-            <br>
-            Once all words are added, the story is ready. The end story is usually quite funny. Pick a song title below
-            and insert your own words.
+
+      <form action="" method="POST" role="form">
+
+        <div class="form-group">
+          <select class="form-control" id="categories">
+            <option>The Witch is Dead!</option>
+            <option></option>
+            <option></option>
+          </select>
         </div>
-  
-      
-  
-      <!-- <div class="row"> -->
-  
-        <!-- <div class="col-md-12"> -->
-  
-          <!-- <div class="card"> -->
-            
-            <!-- <div class="card">
-                <div class="card-header">
-                  Choose your song
-                </div> -->
-  
-            <div class="card-body">
-                <div class="card-header">
-                  Choose your song
-                </div>
-        
-              <form action="" method="POST" role="form">
-  
-                <div class="form-group">
-                  <select class="form-control" id="categories">
-                    <option>If I Only Had a Brain</option>
-                    <option>Over the Rainbow</option>
-                    <option>Optimistic Voices</option>
-                  </select>
-                </div>
-                
-              </form>
-              <!-- <div class="card"> -->
-              <div class="card-header">
-                <!-- <div class="mx-auto" style=""> -->
-                Choose your words
-              </div>
-              <div class="form-group">
-                <label for="">Adjective</label>
-                <input type="text" class="form-control" id="word1" placeholder="">
-              </div>
-              <div class="form-group">
-                <label for="">Noun</label>
-                <input type="text" class="form-control" id="word2" placeholder="">
-              </div>
-              <div class="form-group">
-                <label for="">Verb</label>
-                <input type="text" class="form-control" id="word3" placeholder="">
-              </div>
-              <div class="form-group">
-                <label for="">Adverb</label>
-                <input type="text" class="form-control" id="word4" placeholder="">
-              </div>
-              <div class="form-group">
-                  <label for="">Adverb</label>
-                  <input type="text" class="form-control" id="word5" placeholder="">
-                </div>
-  
-  
-              <br>
-              <div class="text-right">
-                <button type="submit" class="btn btn-primary btn-md" id="submit">
-                  <span class="fa fa-fire"></span>Submit</button>
-              </div>
-            </div>
-          </div>
-  
-        </div>
+
+      </form>
+      <!-- <div class="card"> -->
+      <div class="card-header">
+        <!-- <div class="mx-auto" style=""> -->
+        Choose your words
       </div>
-      <!-- </div> -->
-    <!-- </div> -->
-  
-    <script src="js/index.js" type="text/javascript"></script>
-  
-  </body>
-  
-  </html>
+      <div class="form-group">
+        <label for="">noun</label>
+        <input type="text" class="form-control" id="word1" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="">place</label>
+        <input type="text" class="form-control" id="word2" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="">noun</label>
+        <input type="text" class="form-control" id="word3" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="">verb</label>
+        <input type="text" class="form-control" id="word4" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="">adjective</label>
+        <input type="text" class="form-control" id="word5" placeholder="">
+      </div>
+
+
+      <br>
+      <div class="text-right">
+        <button type="submit" class="btn btn-primary btn-md" id="submit">
+          <span class="fa fa-fire"></span>Submit</button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+  <script src="js/add.js" type="text/javascript"></script>
+
+</body>
+
+</html>

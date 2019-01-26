@@ -13,7 +13,7 @@
     "test": "mocha",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "katie",
   "license": "ISC",
   "description": ""
 }

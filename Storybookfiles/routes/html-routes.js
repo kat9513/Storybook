@@ -15,19 +15,18 @@ module.exports = function(app) {
 
   // index route loads home.html (add.html is the homepage)
   app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../views/layouts/add.html"));
+    res.sendFile(path.join(__dirname, "../public/add.html"));
   });
 
   // add route loads the add.html page,
   // where users can enter new story to the db (all.html is the file where stories are entered as well as stored to the db)
   app.get("/all", function(req, res) {
-    res.sendFile(path.join(__dirname, "../views/layouts/all.html"));
+    res.sendFile(path.join(__dirname, "../public/all.html"));
   });
 
-  // all route loads the all.html page,
-  // where all stories in the db are displayed
-  //app.get("/all", function(req, res) {
-    //res.sendFile(path.join(__dirname, "../views/layouts/all.html"));
-  //});
+//  http://localhost:8080/public/styles/styles.css
+  app.get("/public/styles", function(req, res) {
+    res.sendFile(path.join(__dirname, ""));
+  });
 
 };

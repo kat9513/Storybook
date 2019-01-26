@@ -6,7 +6,7 @@ var sequelize = require("../config/connection.js");
 var content = sequelize.define('content', {
 
     line: Sequelize.STRING,
-    
+
     order: Sequelize.INTEGER,
 
     templateTitle: Sequelize.STRING,
@@ -14,9 +14,9 @@ var content = sequelize.define('content', {
     wordType: Sequelize.STRING,
 
 }, {
-    freezeTableName: true,
-    timestamps: false
-});
+        freezeTableName: true,
+        timestamps: false
+    });
 
 content.sync();
 

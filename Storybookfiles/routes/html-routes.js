@@ -13,14 +13,9 @@ module.exports = function(app) {
 
   // Each of the below routes just handles the HTML page that the user gets sent to.
 
-  // index route loads view.html
-  app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/view.html"));
-  });
-
   // add route loads the add.html page,
   // where users can enter new characters to the db
-  app.get("/add", function(req, res) {
+  app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/add.html"));
   });
 
@@ -28,6 +23,11 @@ module.exports = function(app) {
   // where all characters in the db are displayed
   app.get("/all", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/all.html"));
+  });
+
+//  http://localhost:8080/public/styles/styles.css
+  app.get("/public/styles", function(req, res) {
+    res.sendFile(path.join(__dirname, ""));
   });
 
 };

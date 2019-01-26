@@ -4,7 +4,7 @@ var sequelize = require("../config/connection.js");
 
 
 var userInput = sequelize.define('userInput', {
-    
+
     word1: Sequelize.STRING,
 
     word2: Sequelize.STRING,
@@ -16,8 +16,8 @@ var userInput = sequelize.define('userInput', {
     word5: Sequelize.STRING,
 
 }, {
-    freezeTableName: true
-});
+        freezeTableName: true
+    });
 
 userInput.sync();
 
